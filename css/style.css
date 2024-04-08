@@ -5,6 +5,69 @@
     box-sizing: border-box;
 }
 
+/* HOME-PAGE : HEADER */
+.main-header nav {
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex: 0.5;
+    margin-right: 25%;
+}
+
+nav a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    /* flex: 1 1; */
+}
+
+.menu-icon {
+    display: flex;
+    justify-content: space-around;
+    flex: 0.3;
+}
+
+.logo-compagny {
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+svg {
+    height: 15px;
+    margin-top: 15px;
+}
+
+.btn-in-header {
+    background-color: rgba(44, 133, 91, 0.91);
+    font-size: 15px;
+    border-radius: 7px;
+    border: rgba(44, 133, 91, 0.91);
+    color: white;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+
+
+}
+
 /* SECTION CONTENT HOME PAGE */
 .content-bc {
     min-height: 100vh;
