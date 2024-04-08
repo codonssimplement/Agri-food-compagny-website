@@ -46,11 +46,13 @@ nav a {
 .logo-compagny {
     height: 90px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 svg {
     height: 15px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .btn-in-header {
@@ -110,4 +112,81 @@ svg {
     border: rgba(44, 133, 91);
     width: 185px;
     height: 65px;
+}
+
+
+/* PROCESS PAGE*/
+.PAGE-PROCESS {
+    background-color: rgb(216, 208, 208, 0.65);
+    height: 638.4px;
+
+}
+
+.agri-food-processing {
+    display: flex;
+    padding-top: 8%;
+
+}
+
+.example-product {
+    display: block;
+    width: 400px;
+    height: 450px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+
+
+}
+
+.img-example-product-liquid {
+    height: 55%;
+    width: 85%;
+}
+
+.img-example-product-dry {
+    height: 45%;
+    width: 85%;
+}
+
+
+.product-news h3 {
+    color: rgba(173, 123, 73, 0.7);
+    font-size: 50px;
+    text-decoration: underline;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+.product-news p {
+    text-align: justify;
+    margin-left: 13%;
+    width: 75%;
+}
+
+.product-news {
+
+    display: inline-block;
+    text-align: left;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 5%;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.image-visit-sector {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
 }
