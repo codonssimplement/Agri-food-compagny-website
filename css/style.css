@@ -284,12 +284,71 @@ svg {
     color: #fff;
     width: 100%;
     padding: 15px;
-    bottom: 0;
-    outline: none;
-    cursor: pointer;
-    margin-top: 0;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border: rgba(44, 133, 91);
+    cursor: pointer;
+    margin-top: 0;
 
+}
+
+/* TESTIMONIALS PAGE */
+.list-of-testimonies {
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.76)), url('../images/customer\ review\ wallpaper\ image.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+
+}
+
+.list-of-testimonies h2 {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.testimonie {
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.content-testimonie {
+    display: flex;
+    justify-content: center;
+}
+
+.notice {
+    display: block;
+    width: 250px;
+    height: 400px;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+    margin-top: 6%;
+    box-shadow: 1px 1px 10px #333;
+    margin-right: 20px;
+}
+
+.notice h3 {
+    font-size: 20px;
+    color: rgba(44, 133, 91);
+}
+
+.notice img {
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #333;
+    margin-bottom: 5%;
+}
+
+.notice p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
 }
