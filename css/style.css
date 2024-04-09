@@ -424,3 +424,45 @@ svg {
     width: 140px;
 
 }
+
+/* EMAIL NEWSLETTERS PAGE */
+.newsletters {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image-background-newsletters.png') no-repeat;
+    background-position: center;
+    margin-bottom: 6%;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin-top: 9%;
+
+
+}
+
+.field-in-newsletter {
+    padding-top: 150px;
+    margin-left: 20%;
+}
+
+.field-in-newsletter-content-button {
+    padding-top: 15px;
+    margin-left: 20%;
+}
+
+.field-in-newsletter input {
+
+    width: 80%;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.btn-in-newsletter-sender {
+    background-color: rgba(44, 133, 91);
+    color: white;
+    border: rgba(44, 133, 91);
+    width: 30%;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 25%;
+    cursor: pointer;
+
+}
