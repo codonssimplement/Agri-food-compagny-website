@@ -352,3 +352,75 @@ svg {
     margin-bottom: 10px;
     text-align: justify;
 }
+
+/* PRINT DESC PRODUCTS */
+.print-desc-products {
+    background-color: grey;
+    height: 638.4px;
+}
+
+.agri-food-print-desc-product {
+    display: flex;
+}
+
+.sector-1 {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin-top: 2%;
+
+}
+
+.section-2 {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin-top: -25px;
+}
+
+.img-example-maskot {
+    width: 300px;
+    margin-right: 450px;
+    margin-left: 55px;
+    height: 350px;
+    margin-top: 3%;
+}
+
+.image-bouye {
+    margin-right: 150px;
+    margin-top: 90px;
+    height: 250px;
+    width: 135px;
+
+}
+
+.image-bissap {
+    margin-right: 10px;
+    margin-top: 42px;
+    height: 300px;
+    width: 160px;
+}
+
+.paragraph-example {
+    width: 300px;
+    margin-right: 430px;
+    margin-left: 80px;
+    padding-top: 120px;
+    height: 5px;
+}
+
+.bissap-image {
+
+    margin-top: 125px;
+    height: 210px;
+    width: 90px;
+
+}
+
+.image-oil {
+    margin-right: 170px;
+    margin-top: 70px;
+    height: 265px;
+    width: 140px;
+
+}
