@@ -196,6 +196,7 @@ svg {
     background: #f2f2f2;
     font-family: Arial, sans-serif;
     width: 99.5%;
+
 }
 
 .list-product {
@@ -566,4 +567,95 @@ svg {
     margin-top: 25px;
     cursor: pointer;
     margin-left: 6.5%;
+}
+
+/* FOOTER PAGE */
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('../images/footer-bc.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3%;
+    display: grid;
+
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+
+}
+
+.objective {
+    width: 26%;
+    margin-right: 285px;
+}
+
+.objective h2 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: white;
+
+}
+
+.objective p {
+    width: 500px;
+    font-size: 20px;
+    color: white;
+}
+
+.hours {
+    width: 26%;
+
+
+}
+
+.hours h2 {
+
+    margin-top: 25px;
+    font-size: 30px;
+    margin-bottom: 35px;
+    margin-left: 5%;
+    color: white;
+}
+
+.hours p {
+
+    font-size: 25px;
+    color: white;
+
+}
+
+.follow-me {
+    width: 26%;
+}
+
+.follow-me h2 {
+    margin-top: 25px;
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.follow-me p {
+
+    font-size: 25px;
+    color: white;
+
+}
+
+.footer-copyright {
+    background-color: white;
+    border: rgb(255, 255, 255);
+    width: 95%;
+    margin-bottom: 0.5%;
+    margin-left: 1.75%;
+
+}
+
+.footer-copyright p {
+    text-align: center;
+    color: black;
 }
